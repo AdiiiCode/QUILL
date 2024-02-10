@@ -19,7 +19,7 @@ export default function CreateBlog() {
 
   const getImg = async () => {
     try {
-      const result = await axios.get("quill-iy72.vercel.app/get-image");
+      const result = await axios.get("https://quill-iy72.vercel.app//get-image");
       setAllImg(result.data.data);
     } catch (error) {
       console.error(error);
