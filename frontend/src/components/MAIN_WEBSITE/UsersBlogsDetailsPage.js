@@ -21,7 +21,7 @@ const UsersBlogsDetailsPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/UserBlogDetail/${id}`);
+        const response = await fetch(`https://quill-iy72.vercel.app/${id}`);
         const data = await response.json();
 
         if (response.ok) {
