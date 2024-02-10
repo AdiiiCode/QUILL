@@ -30,7 +30,7 @@ mongoose
   .connect(dbURI)
   .then(() => {
     console.log("Connected to MongoDB");
-    app.listen(5000, () => {
+    app.listen("https://quill-frontend.vercel.app", () => {
       console.log(`Server is listening on Port 5000`);
     });
   })
