@@ -7,7 +7,7 @@ function ShowAllUsersBlogs() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://localhost:5000/AllBlogs");
+        const response = await fetch("quill-iy72.vercel.app/AllBlogs");
         if (!response.ok) {
           throw new Error(`HTTP error: ${response.status}`);
         }
