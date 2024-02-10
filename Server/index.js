@@ -149,7 +149,7 @@ app.get("/Sidebar", async (req, res) => {
 // sidebar Page
 
 // Login Page
-app.post("/login", async (req, res) => {
+app.post("/Login", async (req, res) => {
   const { username, password } = req.body;
   try {
     // Check if the user exists
