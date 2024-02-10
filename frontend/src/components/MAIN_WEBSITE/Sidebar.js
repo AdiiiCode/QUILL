@@ -11,7 +11,7 @@ const Sidebar = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/Sidebar");
+        const response = await fetchhttps://quill-iy72.vercel.app/Sidebar");
         if (!response.ok) {
           throw new Error(`HTTP error: ${response.status}`);
         }
