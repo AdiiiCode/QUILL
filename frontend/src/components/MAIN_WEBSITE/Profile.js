@@ -9,7 +9,7 @@ const [pass,setPass]= useState("")
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/UserProfile');
+        const response = await fetch('quill-iy72.vercel.app/UserProfile');
         const data = await response.json();
 
         if (response.ok) {
