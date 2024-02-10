@@ -17,7 +17,7 @@ export default function SignInPage() {
   };
   const HandleonClick = () => {
     axios
-      .post("https://quill-frontend.vercel.app/login", {
+      .post("https://quill-frontend.vercel.app/Login", {
         username: username,
         password: password,
       })
