@@ -7,7 +7,7 @@ function OtpScreen() {
 
   const handleSubmit = () => {
     axios
-      .post("https://quill-iy72.vercel.app/otpScreen", {
+      .post("https://quill-frontend.vercel.app/otpScreen", {
         otp: otp,
       })
       .then((res) => {
