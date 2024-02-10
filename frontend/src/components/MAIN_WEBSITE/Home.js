@@ -12,7 +12,7 @@ function FrontPage() {
     async function fetchData() {
       timeoutID = setTimeout(async () => {
         try {
-          const response = await fetch("http://localhost:5000/Home");
+          const response = await fetch("quill-iy72.vercel.app/Home");
           if (!response.ok) {
             throw new Error(`HTTP error: ${response.status}`);
           }
