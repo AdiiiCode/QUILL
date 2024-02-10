@@ -15,7 +15,7 @@ export default function SignUpPage() {
       alert("Password Doest Match");
     } 
     else {
-      axios.post("http://localhost:5000/signup", {
+      axios.post("https://quill-iy72.vercel.app/signup", {
           username: username,
           email: email,
           password: Password,
