@@ -13,7 +13,7 @@ const HomePageDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`quill-iy72.vercel.app/HomeDetail/${id}`);
+        const response = await fetch(`https://quill-iy72.vercel.app//HomeDetail/${id}`);
         const data = await response.json();
 
         if (response.ok) {
