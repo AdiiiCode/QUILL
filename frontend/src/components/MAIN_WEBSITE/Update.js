@@ -16,7 +16,7 @@ export default function Update() {
   const handleClick = () => {
     setLoading(true);
       axios
-      .post(`http://localhost:5000/Update${id}`, {
+      .post(`https://quill-iy72.vercel.app/Update${id}`, {
         title: title,
         snippets: snippets,
         body: body,
