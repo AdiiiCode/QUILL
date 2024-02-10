@@ -37,6 +37,8 @@ export default function SignInPage() {
       })
       .catch((error) => {
         console.error(error);
+        console.error("Hehehehehehehhehehe");
+        
       });
   };
   return (
